@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    >
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/title_back"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/back_bg"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="地图"
+    android:textSize="16dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:drawableRight="@drawable/meun"
+    android:background="#FFFFFF"
+    />
+</LinearLayout>

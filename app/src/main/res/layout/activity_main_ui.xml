@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_container"
+        android:layout_weight="8"
+        >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#DBDB70"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/map"
+            android:drawableTop="@drawable/p_map"
+            android:background="#DBDB70"
+            android:text="地图"
+            android:textAlignment="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/recommend"
+            android:background="#DBDB70"
+            android:drawableTop="@drawable/p_recommend"
+            android:text="推荐"
+            android:textAlignment="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/myself"
+            android:background="#DBDB70"
+            android:drawableTop="@drawable/p_myself"
+            android:text="我的"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

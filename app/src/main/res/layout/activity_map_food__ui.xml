@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+   <custom_widget.TitleLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </custom_widget.TitleLayout>
+
+   <com.amap.api.maps.MapView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/map_food"
+       >
+
+   </com.amap.api.maps.MapView>
+</LinearLayout>

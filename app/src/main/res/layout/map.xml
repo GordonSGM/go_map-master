@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/map_bg"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+        <Button
+            android:id="@+id/food_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="美食"
+            android:textColor="#F5F5F5"
+            android:textSize="24dp"
+            android:background="#DBDB70"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+
+        <Button
+            android:id="@+id/fitness_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DBDB70"
+            android:text="健身"
+            android:textColor="#F5F5F5"
+            android:textSize="24dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+
+        <Button
+            android:id="@+id/entettainment_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DBDB70"
+            android:text="娱乐"
+            android:textColor="#F5F5F5"
+            android:textSize="24dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+
+        <Button
+            android:id="@+id/shopping_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DBDB70"
+            android:text="购物"
+            android:textColor="#F5F5F5"
+            android:textSize="24dp" />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
